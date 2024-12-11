@@ -1,0 +1,26 @@
+site_name: Manith's Notes
+theme:
+  name: material
+  
+  font:
+    text: Verdana
+    code: Red Hat Mono
+
+  logo: 
+  favicon:  
+
+  palette:  
+  - scheme: slate 
+    toggle:
+      icon: material/weather-sunny
+      name: Dark Mode 
+    primary: black
+    accent: blue
+
+  - scheme: default
+    toggle:
+      icon: material/weather-night
+      name: Light Mode
+    primary: blue
+    accent: deep orange
+
