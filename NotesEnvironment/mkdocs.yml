@@ -1,4 +1,5 @@
 site_name: Manith's Notes
+site_url: https://sitename.example
 theme:
   name: material
   
