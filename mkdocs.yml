@@ -1,5 +1,7 @@
 site_name: My MkDocs Material Documentation
-site_url: https://manith-ratnayake.github.io/Notes/
+site_url: https://manith-ratnayake.github.io/Notes
+use_directory_urls: true
+
 theme:
   name: material
   font:
@@ -29,8 +31,10 @@ theme:
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+    - pymdownx.emoji:
+      emoji_index: material.extensions.emoji.twemoji
+      emoji_generator: material.extensions.emoji.to_svg
+  
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -38,10 +42,11 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+    custom_fences:
+      - name: mermaid
+        class: mermaid
+        format: pymdownx.superfences.fence_code_format
+
   - pymdownx.tabbed:
       alternate_style: true
   - admonition
