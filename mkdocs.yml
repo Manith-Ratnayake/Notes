@@ -1,4 +1,4 @@
-site_name: My MkDocs Material Documentation
+site_name: Manith's  Notes
 site_url: https://manith-ratnayake.github.io/Notes
 use_directory_urls: true
 
@@ -7,8 +7,8 @@ theme:
   font:
     text: Merriweather Sans
     code: Red Hat Mono
-  logo: assets/logo.png
-  favicon: assets/favicon.ico
+  logo: 
+  favicon: 
   features:
     - navigation.footer
   palette:
@@ -49,14 +49,7 @@ markdown_extensions:
   - admonition
   - pymdownx.details
 
-extra:
-  social:
-    - icon: simple/youtube
-      link: https://youtube.com/@james-willett
-    - icon: simple/linkedin
-      link: https://linkedin.com/in/willettjames
-
-copyright: Copyright &copy; 2024 James Willett
+copyright: Copyright &copy; 2024 Manith Ratnayake
 
 
 
