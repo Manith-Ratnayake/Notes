@@ -9,8 +9,7 @@ theme:
     code: Red Hat Mono
   logo: 
   favicon: 
-  features:
-    - navigation.footer
+
   palette:
     # Dark Mode
     - scheme: slate
