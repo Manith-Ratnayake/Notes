@@ -1,0 +1,6 @@
+![alt text](Assets/Wiring%20Standards/image.png)
+![alt text](Assets/Wiring%20Standards/image-1.png)
+![alt text](Assets/Wiring%20Standards/image-2.png)
+![alt text](Assets/Wiring%20Standards/image-3.png)
+![alt text](Assets/Wiring%20Standards/image-4.png)
+![alt text](Assets/Wiring%20Standards/image-5.png)

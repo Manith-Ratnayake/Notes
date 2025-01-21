@@ -1,0 +1,5 @@
+![alt text](Assets/RAM%20Slots/image.png)
+![alt text](Assets/RAM%20Slots/image-1.png)
+![alt text](Assets/RAM%20Slots/image-2.png)
+![alt text](Assets/RAM%20Slots/image-3.png)
+![alt text](Assets/RAM%20Slots/image-4.png)

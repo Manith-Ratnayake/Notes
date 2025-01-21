@@ -1,0 +1,8 @@
+![alt text](Assets/Input%20Devices%20&%20Peripherlas/image.png)
+![alt text](Assets/Input%20Devices%20&%20Peripherlas/image-1.png)
+![alt text](Assets/Input%20Devices%20&%20Peripherlas/image-2.png)
+![alt text](Assets/Input%20Devices%20&%20Peripherlas/image-3.png)
+![alt text](Assets/Input%20Devices%20&%20Peripherlas/image-4.png)
+![alt text](Assets/Input%20Devices%20&%20Peripherlas/image-5.png)
+![alt text](Assets/Input%20Devices%20&%20Peripherlas/image-6.png)
+![alt text](Assets/Input%20Devices%20&%20Peripherlas/image-7.png)

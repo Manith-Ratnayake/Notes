@@ -1,0 +1,8 @@
+![alt text](Assets/OSI%20Model/image.png)
+![alt text](Assets/OSI%20Model/image-1.png)
+![alt text](Assets/OSI%20Model/image-2.png)
+![alt text](Assets/OSI%20Model/image-3.png)
+![alt text](Assets/OSI%20Model/image-4.png)
+![alt text](Assets/OSI%20Model/image-5.png)
+![alt text](Assets/OSI%20Model/image-6.png)
+![alt text](Assets/OSI%20Model/image-7.png)
