@@ -1,0 +1,41 @@
+VoIP (Voice over Internet Protocol) also IP telephony
+- Communicating through internet
+
+
+
+SIP Server (Session Initiation Protocol)
+
+A signaling protocol that guides software system to initiate, modify & terminate real-time data media session like voice calls,video conferencing & messaging
+
+
+
+SIP Proxy Server
+- An intermediate program forwards, requests, & receive data from SIP endpoints 
+
+
+Breakdown of how SIP proxy server works
+1. Calls makes a request on a sip app
+2. Caller's proxy server confirms the request's destination 
+3. Caller's proxy server forwards the request to the destination
+4. Caller's proxy sends a receipt 
+5. Recipient's server responds with a message 
+6. Caller's proxy server receievs the message & forwards it to the caller's endpoints
+7. Process repeats throughout the call 
+
+
+Stateless SIP Proxy Server 
+- Stateless proxies simply forward request to their destination, without checking the packet header, modifing the message, or providing any receipts back to the client who sent the request
+
+Stateful SIP Proxy Server 
+- A stateful server scans & records information about each request, data packet & message it sends, using information about the transcation's "state" to learn and store information about users, session & servers 
+
+
+Redirect Server 
+Redirect server receives all proxy server requests & inform the proxy then uses this information to adjust the packet header & send the request to the correct destination
+
+
+Features of a SIP proxy server 
+- Call & Packet Routng 
+- Authentication
+- Authorization
+- Modif
