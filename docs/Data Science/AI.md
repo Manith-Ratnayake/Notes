@@ -9,16 +9,18 @@ Sub Fields of Artificial Intelligence
 * Machine Learning
 
 1940-1950: Early days
-o1943: McCulloch & Pitts: Boolean circuit model of brain o1950: Turing's “Computing Machinery and Intelligence”
+1943: McCulloch & Pitts: Boolean circuit model of brain o1950: Turing's “Computing Machinery and Intelligence”
 1950—70: Excitement: Look, Ma, no hands!
-o1950s: Early AI programs, including Samuel's checkers program, Newell & Simon's Logic Theorist, Gelernter's Geometry Engine
-o1956: Dartmouth meeting: “Artificial Intelligence” adopted o1965: Robinson's complete algorithm for logical reasoning
+1950s: Early AI programs, including Samuel's checkers program, Newell & Simon's Logic Theorist, Gelernter's Geometry Engine
+1956: Dartmouth meeting: “Artificial Intelligence” adopted o1965: Robinson's complete algorithm for logical reasoning
 1970—90: Knowledge-based approaches
-o1969—79: Early development of knowledge-based systems o1980—88: Expert systems industry booms
-o1988—93: Expert systems industry busts: “AI Winter”
+1969—79: Early development of knowledge-based systems o1980—88: Expert systems industry booms
+1988—93: Expert systems industry busts: “AI Winter”
 1990—: Statistical approaches
-oResurgence of probability, focus on uncertainty oGeneral increase in technical depth
-oAgents and learning systems… “AI Spring”?
+
+Resurgence of probability, focus on uncertainty oGeneral increase in technical depth
+Agents and learning systems… “AI Spring”?
+
 ----------------------------------------------------------------------------------------------------------------
 What is an Agent?
 An agent is anything that can be viewed as perceiving its environment through sensor and acting upon that environment through actuators.
@@ -41,52 +43,52 @@ Properties of task environment
 * Single agent vs Multiagent
 
 Fully Observable Environments
-If an agent’s sensors give it access to the complete state of the environment at each point in time, then we say that the task environment is fully observable.
+- If an agent’s sensors give it access to the complete state of the environment at each point in time, then we say that the task environment is fully observable.
 
 
 Partially Observable Environments
-An environment might be partially observable because of noisy and inaccurate sensors or because parts of the state are simply.
-In those environments you need memory on the side of the agent to make the best possible decision.
+- An environment might be partially observable because of noisy and inaccurate sensors or because parts of the state are simply. In those environments you need memory on the side of the agent to make the best possible decision.
 
 
 Deterministic Environments
-If the next state of the environment is completely determined by the current state and the action executed by the agent.
+- If the next state of the environment is completely determined by the current state and the action executed by the agent.
 
 Stochastic Environments
-If the next state of the environment is not determined by the current state and the action executed by the agent. There is certain amount of uncertainty involves the next state.
+- If the next state of the environment is not determined by the current state and the action executed by the agent. There is certain amount of uncertainty involves the next state.
 
 Static  Environments
-If the environment does not change while an agent is deliberating, then we say  the environment is static.
+- If the environment does not change while an agent is deliberating, then we say  the environment is static.
 
 Dynamic Environments
-If the environment can change while an  agent is deliberating, then we say the environment is dynamic.
+- If the environment can change while an  agent is deliberating, then we say the environment is dynamic.
 
 Discrete Environments
-A discrete environment is one where you have finitely many choices.
+- Discrete environment is one where you have finitely many choices.
 
 Continuous Environments
-Possible actions or things you could sense may be infinite.
+- Possible actions or things you could sense may be infinite.
 
 Benign  Environments
-The environment has no objective that would “go against” what you're trying to accomplish.
+- The environment has no objective that would “go against” what you're trying to accomplish.
 
 
 Adversarial Environments
-The environment observes you and contradict what you're trying to achieve.
+- The environment observes you and contradict what you're trying to achieve.
 
 Episodic Environments
-* In an episodic task environment, the agent’s experience    is divided into atomic episodes. In each episode the agent receives a percept and then performs a single action.
-* Crucially, the next episode does not depend on the actions taken in previous episodes.
+- In an episodic task environment, the agent’s experience is divided into atomic episodes. In each episode the agent receives a percept and then performs a single action.
+- Crucially, the next episode does not depend on the actions taken in previous episodes.
 
 Sequential Environments
-In sequential environments, on the other hand,  the current decision could affect all future decisions.
+- In sequential environments, on the other hand,  the current decision could affect all future decisions.
 
 Single agent environments
-If only one agent is involved in an environment, and operating  by itself then such an environment is called single agent environment.
+- If only one agent is involved in an environment, and operating  by itself then such an environment is called single agent environment.
 
 Multiagent Environments
-If multiple agents are operating in an environment, then such an environment is called  a multi-agent environment.
-----------------------------------------------------------------------------------------------------------------------------------------
+- If multiple agents are operating in an environment, then such an environment is called  a multi-agent environment.
+
+-------------------------------------------------------------------------------------------------
 Structure of the Rational Agent
 
 Agent = Architecture + program
@@ -109,28 +111,30 @@ Simple Reflex Agents
 
 Simple  Reflex  Agents: Examples
 Tic-Tac-Toe
+
 1940-1950: Early days
-o1943: McCulloch & Pitts: Boolean circuit model of brain o1950: Turing's “Computing Machinery and Intelligence”
+1943: McCulloch & Pitts: Boolean circuit model of brain o1950: Turing's “Computing Machinery and Intelligence”
 1950—70: Excitement: Look, Ma, no hands!
-o1950s: Early AI programs, including Samuel's checkers program, Newell & Simon's Logic Theorist, Gelernter's Geometry Engine
+1950s: Early AI programs, including Samuel's checkers program, Newell & Simon's Logic Theorist, Gelernter's Geometry Engine
 1940-1950: Early days
-o1943: McCulloch & Pitts: Boolean circuit model of brain o1950: Turing's “Computing Machinery and Intelligence”
+1943: McCulloch & Pitts: Boolean circuit model of brain o1950: Turing's “Computing Machinery and Intelligence”
 1950—70: Excitement: Look, Ma, no hands!
-o1950s: Early AI programs, including Samuel's checkers program, Newell & Simon's Logic Theorist, Gelernter's Geometry Engine
-o1956: Dartmouth meeting: “Artificial Intelligence” adopted o1965: Robinson's complete algorithm for logical reasoning
+1950s: Early AI programs, including Samuel's checkers program, Newell & Simon's Logic Theorist, Gelernter's Geometry Engine
+1956: Dartmouth meeting: “Artificial Intelligence” adopted o1965: Robinson's complete algorithm for logical reasoning
 1970—90: Knowledge-based approaches
-o1969—79: Early development of knowledge-based systems o1980—88: Expert systems industry booms
-o1988—93: Expert systems industry busts: “AI Winter”
+1969—79: Early development of knowledge-based systems o1980—88: Expert systems industry booms
+1988—93: Expert systems industry busts: “AI Winter”
 1990—: Statistical approaches
-oResurgence of probability, focus on uncertainty oGeneral increase in technical depth
-oAgents and learning systems… “AI Spring”?
-o1956: Dartmouth meeting: “Artificial Intelligence” adopted o1965: Robinson's complete algorithm for logical reasoning
+Resurgence of probability, focus on uncertainty oGeneral increase in technical depth
+Agents and learning systems… “AI Spring”?
+1956: Dartmouth meeting: “Artificial Intelligence” adopted o1965: Robinson's complete algorithm for logical reasoning
 1970—90: Knowledge-based approaches
-o1969—79: Early development of knowledge-based systems o1980—88: Expert systems industry booms
-o1988—93: Expert systems industry busts: “AI Winter”
+1969—79: Early development of knowledge-based systems o1980—88: Expert systems industry booms
+1988—93: Expert systems industry busts: “AI Winter”
 1990—: Statistical approaches
-oResurgence of probability, focus on uncertainty oGeneral increase in technical depth
-oAgents and learning systems… “AI Spring”?
+
+Resurgence of probability, focus on uncertainty oGeneral increase in technical depth
+Agents and learning systems… “AI Spring”?
 Checkers Game
 Vacuum Cleaner
 
@@ -197,7 +201,9 @@ Gives performance feedback to learning element
 Needed because precepts don’t capture performance
 Problem generator
 Suggests innovative actions
----------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------
+
 Problem Solving:
 • Four general steps in problem solving:
 • Goal Formulation:
@@ -205,8 +211,7 @@ Problem Solving:
 • Problem Formulation:
 • What actions and states to consider given the goal
 • Search:
-• Examine different possible sequences of actions that lead to states of known value and then
-choose the best sequence
+• Examine different possible sequences of actions that lead to states of known value and then choose the best sequence
 • Execute:
 • Perform the actions on the basis of the solution
 • Problem-solving agent: a type of goal-based agent
@@ -279,7 +284,9 @@ Pros:
 • Not going to infinite loops
 • Cons:
 • Repeat all the work in the previous phase
-----------------------------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------
+
 What is Informed (Heuristic) Search?
 • Informed (Heuristic) search strategies use problemspecific knowledge beyond the definition of the problem itself.
 • Informed search can find solutions more efficiently than an uninformed strategy.
@@ -316,7 +323,8 @@ A* Search
 • It does not always produce shortest path
 • Not practical for large scale problems
 
-----------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+
 Introduction to Planning
 • Planning is an important topic in AI.
 • Planning is required for every task.
@@ -385,24 +393,25 @@ Partial Order Planning
 • flexibility in ordering the subplans
 • least commitment strategy:
 • delaying a choice during search
-• Example, leave actions unordered, unless they
-must be sequential
------------------------------------------------------------------------------------------------------------------------------
-Central component of a knowledge-based agent is a
-Knowledge-Base
+• Example, leave actions unordered, unless they must be sequential
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Central component of a knowledge-based agent is a Knowledge-Base
+
 Properties of FOL
-1.Validity:
- A formula is valid if it holds true for all possible interpretations. For
+
+1.Validity: A formula is valid if it holds true for all possible interpretations. For
 instance, the formula P ∨ ¬P (where P is a proposition) is always true, regardless of
 the truth value of P. It is known as the principle of the excluded middle.
-2.Satisfiability: 
-A formula is satisfiable if it can be made true by some interpretation.
+
+2.Satisfiability: A formula is satisfiable if it can be made true by some interpretation.
 For example, the formula P ∧ Q is satisfiable when both P and Q are true.
-3.Unsatisfiability: 
-A formula is unsatisfiable if it cannot be made true by any
+
+3.Unsatisfiability: A formula is unsatisfiable if it cannot be made true by any
 interpretation. For instance, the formula P ∧ ¬P (where P is a proposition) is always
 false, regardless of the truth value of P . It represents a logical contradiction.
-4.Entailment: 
-Entailment occurs when one formula logically implies another. For
+
+4.Entailment: Entailment occurs when one formula logically implies another. For
 example, if we have the premises ∀x (P(x) → Q(x)) and ∀x P(x) , we can logically infer
 ∀x Q(x). This means that the truth of the premises implies the truth of the conclusion.

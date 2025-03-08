@@ -115,6 +115,48 @@ The higher dot product means higher similarity while lower means low similarity
 Chapter 4
 
 
+GPT 2 weight are public , GPT 3 weights are not public
+Layer Normalization - Adjust the activation(output) of a nerural network layer to have a mean 0 and variance of 1. 
+RELU - Negative inputs to 0
+
+GELU (Gaussian error linear unit)
+SwisGLU (Swish-gated linear unit)
+
+GELU used in LLM 
+
+Batch normalization, across the batch dimensions
+Layer normalization, normalize across the feature dimension 
 
 
+Shortcut connections (skip and residual connections)
+
+Vanishing gradient problem - where gradients become smaller as they propagate backward through the layers, making it difficult to effectively train earlier layers
+
+Pre Layer Norm 
+Post Layer Norm 
+
+Weight Tying 
+
+
+Chapter 5
+-----------------------------------------------------------------------------
+
+Backpropagation needs a loss function 
+Perplexity measures how well the probability distribution predicted by the model matches the actual distribution of the words in the dataset
+
+
+AdamW 
+Variant of Adam improves the weight decay approach
+
+
+Decoding strategies (text generating strategies)
+Temperature scaling - probabilistic selection process to the next token generation task.
+Greedy decoding - sampled the token with the highest probability as the next token 
+Top K sampling
+
+Chapter 6
+-------------------------------------------------------------------------
+
+Instruction fine tunning is more versatile. It demands larger dataset and greater computational resources to develop
+Classification fine tunning require less data and less compute power
 

@@ -1,14 +1,20 @@
 
+Artificial Intelligence 
+Machine Learning
+Deep Learning
+
+Foundational Models
+
+-- LLM
+-- Deep fakes
+
 [Machine Learning is the] field of study that gives computers the ability to learn without being explicitly programmed. —Arthur Samuel, 1959
 
 
 A computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by P, improves with experience E. —Tom Mitchell, 1997
 
 
-
 Even though it is regression Logistic Regression is good for classification problems 
-
-
 
 
 
@@ -52,16 +58,12 @@ Precision recall tradeoff
 ROC curve
 
 
-
 Bacth gradient descent
 Stochastic gradient decent
 Mini Batch gradient decent
 
 
-
 Extra trees (Extremely randomized Trees)
-
-
 
 
 Swiss Roll

@@ -1,3 +1,5 @@
+Chapter 1
+
 LLM twin concept 
 * is an AI character that incorporates writing style, voice and personality into an LLM.
 Digital version of a person 
@@ -81,6 +83,9 @@ Inference
 
 
 ------------------------------------------------------------------------------------------------
+Chapter 2
+
+
 LLMOps - Instruction dataset, model versioning, experiment tracking, CT/CI/CD, Prompt and system monitoring 
 ZenML - Orchestrator fill gap between ML and MLOps 
 
@@ -242,10 +247,36 @@ Optimizer
 AdamW
 
 --------------------------------------------------------------------------------------
-Reinforcment Learning from Human Feedback (RLHF)
 
+Chapter 11 
+
+Reinforcment Learning from Human Feedback (RLHF)
 Direct Preference Optimization (DPO)
 
 
+LLM like github copilot will expose credentials
+
 KV Cahche 
+
+In web interface can get a feedback loop : by users liking it 
+
+
+Input Gurardrails protects 
+    - from exposing private credentials to API (sending private data)
+    - executing harmful prompts that compromise systems [model jailbreaking] executing sql code
+    - accepting violent prompts (how to make a bomb)
+
+
+Ouput guardrails 
+    - failed output that no standards (Hallucinations)
+
+
+Galileo Protect 
+Running a retry statment can double the speed so run parrelly and pick the best 
+
+
+2 stages :
+    Staging 
+    Production 
+
 

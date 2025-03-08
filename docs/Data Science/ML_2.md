@@ -203,12 +203,3 @@ FCN - Fully convolutional Network
 
 
 
-
-
-
-
-
-
-
-
-
